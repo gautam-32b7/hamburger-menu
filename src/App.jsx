@@ -41,7 +41,7 @@ export default function App() {
             </a>
           </div>
           <button
-            onClick={toggleMenu}
+            onClick={handleToggleMenu}
             className="md:hidden flex items-center justify-center w-10 h-10 text-white hover:bg-blue-700 rounded transition-colors focus:ring-2 focus:ring-blue-300"
           >
             {isOpen ? (
