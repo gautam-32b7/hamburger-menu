@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react";
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
+  const handleToggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
